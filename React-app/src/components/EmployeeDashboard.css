@@ -1,0 +1,105 @@
+/* EmployeeDashboard.css */
+
+.dashboard-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    border-radius: 10px;
+  }
+  
+  .dashboard-heading {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .leave-request-section,
+  .leave-requests-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-heading {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .leave-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .input-field {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .submit-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  
+  .status-message {
+    text-align: center;
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .leave-requests-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .leave-request-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leave-request-info {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .cancel-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cancel-button:hover {
+    background-color: #c82333;
+  }
+  

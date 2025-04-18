@@ -1,0 +1,50 @@
+.manager-dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #4CAF50;
+  }
+  
+  .leave-requests {
+    margin-top: 30px;
+  }
+  
+  .leave-requests table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .leave-requests th, .leave-requests td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .leave-requests th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .leave-requests tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
