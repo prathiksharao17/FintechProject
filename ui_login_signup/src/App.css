@@ -1,0 +1,80 @@
+/* src/components/authform.css */
+.auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #6a11cb, #2575fc); /* Gradient background */
+}
+
+.auth-form-card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 400px; /* Increased width */
+  text-align: center;
+  transform: translateY(-20px); /* Slight upward shift for better alignment */
+}
+
+.auth-form-title {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+input:focus,
+select:focus {
+  border-color: #2575fc; /* Highlight border on focus */
+  outline: none;
+}
+
+button {
+  background-color: #2575fc;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6a11cb;
+}
+
+.auth-form-message {
+  color: green;
+  margin-top: 10px;
+}
+
+.toggle-auth-btn {
+  background: none;
+  border: none;
+  color: #2575fc;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.toggle-auth-btn:hover {
+  text-decoration: underline;
+}
