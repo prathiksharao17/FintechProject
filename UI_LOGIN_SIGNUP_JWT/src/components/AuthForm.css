@@ -1,0 +1,80 @@
+/* AuthForm.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: #f0f2f5;
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+form input,
+form select,
+form button {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+.auth-container p {
+  margin-top: 15px;
+  color: #d9534f;
+  font-weight: bold;
+}
+
+.auth-container > button {
+  margin-top: 15px;
+  padding: 12px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.auth-container > button:hover {
+  background-color: #218838;
+}
