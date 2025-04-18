@@ -1,0 +1,93 @@
+/* Gradient background */
+.auth-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Auth card */
+.auth-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 40px 30px;
+  width: 400px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  z-index: 1;
+  color: #fff;
+}
+
+/* Inputs */
+.auth-card input,
+.auth-card select {
+  width: 92%;
+  padding: 12px;
+  margin: 10px 0;
+  background: #2e2e2e;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+/* Button */
+.auth-card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.auth-card button:hover {
+  background-color: #f1f1f1;
+}
+
+/* Message */
+.auth-card p {
+  margin-top: 12px;
+}
+
+/* Switch login/signup */
+.auth-card .toggle-btn {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Decorative blobs */
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.blob.blue {
+  width: 180px;
+  height: 180px;
+  top: 10%;
+  left: 10%;
+  background: radial-gradient(circle, #00f, #0052d4);
+  opacity: 0.6;
+}
+
+.blob.orange {
+  width: 140px;
+  height: 140px;
+  bottom: 10%;
+  right: 10%;
+  background: radial-gradient(circle, #f7971e, #ffd200);
+  opacity: 0.6;
+}
